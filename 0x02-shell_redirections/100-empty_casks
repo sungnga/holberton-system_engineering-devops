@@ -1,2 +1,2 @@
 #!/bin/bash
-find .*// -type f,d -empty | ls -1a
+find ./*/ -type f,d -empty | ls -1a
