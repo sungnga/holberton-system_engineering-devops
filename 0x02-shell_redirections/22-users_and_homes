@@ -1,2 +1,2 @@
 #!/bin/bash
-sort | cat /etc/passwd | grep "$find_user" | cut -d: -f5,6
+sort | cat /etc/passwd | grep "$find_user" | cut -d: -f1,6
