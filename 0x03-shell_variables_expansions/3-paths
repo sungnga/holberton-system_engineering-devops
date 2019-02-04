@@ -1,2 +1,2 @@
 #!/bin/bash
-env | grep PATH | wc -l
+find . -name "PATH" -type d | wc -l
