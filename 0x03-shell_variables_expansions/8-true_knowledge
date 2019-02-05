@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(((export TRUEKNOWLEDGE=[:num:]) + 128))
+echo $(($TRUEKNOWLEDGE + 128))
