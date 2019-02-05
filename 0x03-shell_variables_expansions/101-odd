@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1 | head -n1 | tail -n1
+ls -l | head -n1 | tail -n1
