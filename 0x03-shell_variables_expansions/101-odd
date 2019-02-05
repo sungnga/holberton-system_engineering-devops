@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1 | tr -s -d ' '
+ls -1 | tr -d ' '
