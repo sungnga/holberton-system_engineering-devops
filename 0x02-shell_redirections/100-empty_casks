@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1a | find ./ -type fd -empty
+find -empty -printf "%f\n"
