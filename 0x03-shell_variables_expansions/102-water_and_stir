@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(($water + $stir = $behlnort))"
+echo "$((($water + $stir) = $behlnort))"
