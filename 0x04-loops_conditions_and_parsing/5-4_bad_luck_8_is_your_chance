@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# A Bash script that displays Holberton School 10 times, but for the 9th iteration, displays Holberton School and then Hi on a new line.
+
+i=0
+
+while [ $i -lt 10 ]
+do
+    i=$((i + 1))
+    if [[ "$i" == '4' ]]
+    then
+	echo 'bad luck'
+    elif [[ "$i" == '8' ]]
+    then
+	echo 'good luck'
+    else
+	echo "Holberton School"
+    fi
+done
