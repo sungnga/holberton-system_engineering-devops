@@ -2,5 +2,5 @@
 # A Bash script that displays the content of the current working director in a list format.
 
 for file in *; do
-    echo $file | cut -d'-' -f2
+    echo "$file" | cut -d'-' -f2
 done
