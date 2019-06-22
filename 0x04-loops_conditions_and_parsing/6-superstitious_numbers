@@ -8,13 +8,12 @@ do
     echo "$i"
     (( i++ ))
 
-    case "$i" in
+    case $i in
     "5") echo "bad luck from China"
          ;;
     "10") echo "bad luck from Japan"
          ;;
     "18") echo "bad luck from Italy"
           ;;
-    *)
-esac
+    esac
 done
