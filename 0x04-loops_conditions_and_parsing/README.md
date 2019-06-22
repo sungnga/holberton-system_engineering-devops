@@ -37,7 +37,7 @@
 
 [To install](https://github.com/koalaman/shellcheck#installing) shellcheck:
 * On command prompt: sudo apt-get shellcheck
-
+For every feedback, Shellcheck will provide a code that you can use to get more information about the issue, for example for code `SC2034`, you can browse https://github.com/koalaman/shellcheck/wiki/SC2034]().
 ---
 
 ## TASKS
@@ -46,77 +46,73 @@
 Read for this task:
 * [Linux and Mac OS users](https://askubuntu.com/questions/61557/how-do-i-set-up-ssh-authentication-keys)
 * [Windows users](https://support.rackspace.com/how-to/generating-rsa-keys-with-ssh-puttygen/)
-
 man: `ssh-keygen`
 
 You will soon have to manage your own [servers](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server) hosted on remote [data centers](https://www.youtube.com/watch?v=iuqXFC_qIvA&feature=youtu.be&t=46). We need to set them up with your RSA public key so that you can access them via SSH.
 
 Create a RSA key pair.
-
-Requirements:
 * Share your public key in your answer file `0-RSA_public_key.pub`
 * Fill the `SSH public key` field of your intranet profile with the public key you just generated
 * Keep the private key to yourself in a secure location, you will use it later to connect to your servers using SSH. Some storing ideas are Dropbox, Google Drive, password manager, USB key. Failing to do so will prevent you to access your servers, which will prevent you from doing your projects
 * If you decide to add a passphrase to your key, make sure to save this passphrase in a secure location, you will not be able to use your keys without the passphrase
 SSH and RSA keys will be covered in depth in a later project.
 
-Directory: `0x04-loops_conditions_and_parsing`
-File: `0-RSA_public_key.pub`
 
 ### [1. For Holberton School loop](./1-for_holberton_school)
-* Write a Bash script that displays Holberton School 10 times.
+
 
 
 ### [2. While Holberton School loop](./2-while_holberton_school)
-* Write a Bash script that displays Holberton School 10 times.
+
 
 
 ### [3. Until Holberton School loop](./3-until_holberton_school)
-* Write a Bash script that displays Holberton School 10 times.
+
 
 
 ### [4. If 9, say Hi!](./4-if_9_say_hi)
-* Write a Bash script that displays Holberton School 10 times, but for the 9th iteration, displays Holberton School and then Hi on a new line.
+
 
 
 ### [5. 4 bad luck, 8 is your chance](./5-4_bad_luck_8_is_your_chance)
-* Write a Bash script that loops from 1 to 10 and:
+
 
 
 ### [6. Superstitious numbers](./6-superstitious_numbers)
-* Write a Bash script that displays numbers from 1 to 20 and:
+
 
 
 ### [7. Clock](./7-clock)
-* Write a Bash script that displays the time for 12 hours and 59 minutes:
+
 
 
 ### [8. For ls](./8-for_ls)
-* Write a Bash script that displays:
+
 
 
 ### [9. To file, or not to file](./9-to_file_or_not_to_file)
-* Write a Bash script that gives you information about the holbertonschool file.
+
 
 
 ### [10. FizzBuzz](./10-fizzbuzz)
-* Write a Bash script that displays numbers from 1 to 100.
+
 
 
 ### [11. Read and cut](./100-read_and_cut)
-* help: read
+
 
 
 ### [12. Tell the story of passwd](./101-tell_the_story_of_passwd)
-* 
+
 
 
 ### [13. Let's parse Apache logs](./102-lets_parse_apache_logs)
-* 
+
 
 
 ### [14. Dig the data](./103-dig_the-data)
-* Now that you’ve parsed the Apache log file, let’s sort the data so you can get a better idea of what is going on.
+
+
 
 ---
 
