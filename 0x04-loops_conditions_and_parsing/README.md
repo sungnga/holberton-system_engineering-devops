@@ -64,6 +64,7 @@ SSH and RSA keys will be covered in depth in a later project.
 ### [1. For Holberton School loop](./1-for_holberton_school)
 Write a Bash script that displays `Holberton School` 10 times.
 * You must use the `for` loop (`while` and `until` are forbidden)
+
 Note that:
 * The first line of my Bash script starts with `#!/usr/bin/env bash`
 * The second line of my Bash scripts is a comment explaining what it is doing
@@ -146,8 +147,8 @@ Write a Bash script that loops from 1 to 10 and:
 * displays `bad luck` for the 4th loop iteration
 * displays `good luck` for the 8th loop iteration
 * displays `Holberton School` for the other iterations
-  * You must use the `while` loop (`for` and `until` are forbidden)
-  * You must use the `if`, `elif` and `else` statements
+* You must use the `while` loop (`for` and `until` are forbidden)
+* You must use the `if`, `elif` and `else` statements
 ```
 sylvain@ubuntu$ ./5-4_bad_luck_8_is_your_chance
 Holberton School
@@ -168,7 +169,6 @@ Write a Bash script that displays numbers from 1 to 20 and:
 * displays `4` and then `bad luck from China` for the 4th loop iteration
 * displays `9` and then `bad luck from Japan` for the 9th loop iteration
 * displays `17` and then `bad luck from Italy` for the 17th loop iteration
-
 * You must use the `while` loop (`for` and `until` are forbidden)
 * You must use the `case` statement
 ```
@@ -203,7 +203,6 @@ sylvain@ubuntu$
 Write a Bash script that displays the time for 12 hours and 59 minutes:
 * display hours from 0 to 12
 * display minutes from 1 to 59
-
 * You must use the `while` loop (`for` and `until` are forbidden)
 ```
 sylvain@ubuntu$ ./7-clock | head -n 70
@@ -285,7 +284,6 @@ Write a Bash script that displays:
 * The content of the current directory
 * In a list format
 * Where only the part of the name after the first dash is displayed (refer to the example)
-
 * You must use the `for` loop (`while` and `until` are forbidden)
 * Do not display hidden files
 ```
@@ -382,10 +380,9 @@ sylvain@ubuntu$
 help: `read`
 Write a Bash script that displays the content of the file `/etc/passwd`.
 Your script should only display:
-* username
-* user id
-* Home directory path for the user
-
+ * username
+ * user id
+ * Home directory path for the user
 * You must use the `while` loop (`for` and `until` are forbidden)
 ```
 sylvain@ubuntu$ cat /etc/passwd
