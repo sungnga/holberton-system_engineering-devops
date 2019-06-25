@@ -5,12 +5,11 @@
 # displays a text when receiving a SIGINT signal,
 # deletes the file and terminates itself when receiving a SIGQUIT or SIGTERM signal
 
-file='/var/run/holbertonscript.pid'
-echo $$ > $file 
+echo $$ > /var/run/holbertonscript.pid
 
-trap 'echo '"'I hate the kill command'"'; rm '$file'; exit 1' SIGTERM
+trap 'echo '"'I hate the kill command'"'; rm /var/run/holbertonscript.pid; exit 1' SIGTERM
 trap "echo 'Y U no love me?!'" SIGINT
-trap 'rm $file; exit 1' SIGQUIT
+trap 'rm /var/run/holbertonscript.pid; exit 1' SIGQUIT
 
 while :
 do
