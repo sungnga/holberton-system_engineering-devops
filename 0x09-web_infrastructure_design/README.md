@@ -59,8 +59,7 @@ Requirements:
 
 
 ### [2. Secured and monitored web infrastructure](./2-secured_and_monitored_web_infrastructure)
-* On a whiteboard, design a three server web infrastructure that hosts the website www.foobar.com, it must be secured, serve encrypted traffic, and be monitored.
-
+On a whiteboard, design a three server web infrastructure that hosts the website www.foobar.com, it must be secured, serve encrypted traffic, and be monitored.
 Requirements:
 * You must add:
   * 3 firewalls
