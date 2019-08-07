@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# A Bash script to install Nginx, listens for port 80, returns a webpage when querying nginx at root
 apt-get update
 apt-get install nginx
 ufw allow http
