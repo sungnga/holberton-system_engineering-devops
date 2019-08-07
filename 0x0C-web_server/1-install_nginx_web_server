@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # A Bash script to install Nginx, listens for port 80, returns a webpage when querying nginx at root
 apt-get update
-apt-get install nginx
-ufw allow http
+apt-get -y install nginx
+ufw allow 'Nginx HTTP'
 echo "Holberton School" > /var/www/html/index.nginx-debian.html
 service nginx start
