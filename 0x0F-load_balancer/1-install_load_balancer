@@ -13,3 +13,4 @@ backend backendnodes
         server 708-web-01 104.196.135.55:80 check
         server 708-web-02 34.74.18.60:80 check
 " >> /etc/haproxy/haproxy.cfg
+service haproxy restart
