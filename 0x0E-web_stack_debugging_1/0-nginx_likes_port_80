@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# A Bash script to fix Ubuntu's Nginx installation from listening on port 80
+rm /etc/nginx/sites-enabled/default
+ln -s /etc/nginx/sites-available/mysite.com /etc/nginx/sites-enabled/default
+service nginx restart
