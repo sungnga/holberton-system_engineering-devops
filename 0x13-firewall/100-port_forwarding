@@ -1,6 +1,4 @@
 #
-# rules.before
-#
 # Rules that should be run before the ufw command line added rules. Custom
 # rules should be added to one of these chains:
 #   ufw-before-input
@@ -8,10 +6,9 @@
 #   ufw-before-forward
 #
 
-# Redirects port 8080/TCP to port 80/TCP
 *nat
 :PREROUTING ACCEPT [0:0]
--A PREROUTING -p tcp --dport 8080/tcp -j REDIRECT --to-port 80/tcp
+-A PREROUTING -p tcp --dport 8080 -j REDIRECT --to-port 80
 COMMIT
 
 # Don't delete these required lines, otherwise there will be errors
