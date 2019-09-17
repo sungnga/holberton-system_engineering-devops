@@ -10,7 +10,7 @@ import sys
 
 if __name__ == "__main__":
     users = requests.get('https://jsonplaceholder.typicode.com/users/{}'
-                        .format(sys.argv[1]))
+                         .format(sys.argv[1]))
     todos = requests.get('https://jsonplaceholder.typicode.com/todos?userId={}'
                          .format(sys.argv[1]))
     dict_users = users.json()
