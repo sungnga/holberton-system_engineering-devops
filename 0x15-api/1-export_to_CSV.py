@@ -3,9 +3,9 @@
 Extend Task 0 Python script to export data in the csv format
 """
 
+import csv
 import requests
 import sys
-import csv
 
 
 if __name__ == "__main__":
