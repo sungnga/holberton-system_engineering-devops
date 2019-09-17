@@ -11,10 +11,12 @@ import sys
 
 if __name__ == "__main__":
     users = requests.get('https://jsonplaceholder.typicode.com/users').json()
-    todos = requests.get('https://jsonplaceholder.typicode.com/todos').json()
     dict = {}
     for user in users:
         todo_list = []
+        todos = requests.get(
+            'https://jsonplaceholder.typicode.com/todos?userId={}'
+            .format(user.get('id'))).json()
         for i in todos:
             todo = {}
             todo["task"] = i.get("title")
