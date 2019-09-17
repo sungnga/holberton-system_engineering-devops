@@ -9,11 +9,11 @@ import sys
 
 
 if __name__ == "__main__":
-    name = requests.get('https://jsonplaceholder.typicode.com/users/{}'
+    users = requests.get('https://jsonplaceholder.typicode.com/users/{}'
                         .format(sys.argv[1]))
     todos = requests.get('https://jsonplaceholder.typicode.com/todos?userId={}'
                          .format(sys.argv[1]))
-    dict_name = name.json()
+    dict_users = users.json()
     dict_todos = todos.json()
     comp_tasks = 0
     tasks = 0
@@ -23,7 +23,7 @@ if __name__ == "__main__":
         else:
             tasks += 1
     print("Employee {} is done with tasks({}/{}):"
-          .format(dict_name['name'], comp_tasks, tasks + comp_tasks))
+          .format(dict_users['name'], comp_tasks, tasks + comp_tasks))
     for i in dict_todos:
         if i.get('completed') is True:
             print('\t {}'.format(i.get('title')))
