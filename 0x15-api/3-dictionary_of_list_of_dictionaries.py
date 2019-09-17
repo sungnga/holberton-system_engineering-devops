@@ -12,6 +12,7 @@ import sys
 if __name__ == "__main__":
     users = requests.get('https://jsonplaceholder.typicode.com/users').json()
     todos = requests.get('https://jsonplaceholder.typicode.com/todos').json()
+    dict = {}
     for user in users:
         todo_list = []
         for i in todos:
@@ -20,6 +21,6 @@ if __name__ == "__main__":
             todo["completed"] = i.get("completed")
             todo["username"] = user.get("username")
             todo_list.append(todo)
-        dict = {user.get('id'): todo_list}
+        dict[user.get('id')] = todo_list
     with open('todo_all_employees.json', 'w') as jsonfile:
         json.dump(dict, jsonfile)
