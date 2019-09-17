@@ -6,7 +6,6 @@ Extend Task 0 Python script to export all employee data in json format
 import csv
 import json
 import requests
-import sys
 
 
 if __name__ == "__main__":
