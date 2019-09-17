@@ -9,8 +9,9 @@ import csv
 
 
 if __name__ == "__main__":
-    dict_users = requests.get('https://jsonplaceholder.\
-    typicode.com/users/{}'.format(sys.argv[1])).json()
+    dict_users = requests.get(
+        'https://jsonplaceholder.typicode.com/users/{}'
+        .format(sys.argv[1])).json()
     dict_todos = requests.get(
         'https://jsonplaceholder.typicode.com/todos?userId={}'
         .format(sys.argv[1])).json()
