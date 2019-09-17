@@ -23,7 +23,7 @@ if __name__ == "__main__":
         else:
             tasks += 1
     print("Employee {} is done with tasks({}/{}):"
-          .format(dict_name['name'], comp_tasks, tasks))
+          .format(dict_name['name'], comp_tasks, tasks + comp_tasks))
     for i in dict_todos:
         if i.get('completed') is True:
             print('\t {}'.format(i.get('title')))
