@@ -13,7 +13,7 @@ def recurse(subreddit, hot_list=[]):
     l = r.json().get('data').get('children')
     if r.status_code != 200:
         return None
-    # return [subreddit] + hot_list
+    return [subreddit] + hot_list
     if hot_list == []:
         return None
     else:
