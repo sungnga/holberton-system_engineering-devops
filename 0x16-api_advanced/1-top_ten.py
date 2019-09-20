@@ -18,5 +18,3 @@ def top_ten(subreddit):
         da = data['data']
         title = da.get('title')
         print(title)
-    # data = json.get('data')
-    # return data.get('subscribers', 0)
