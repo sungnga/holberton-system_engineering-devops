@@ -38,9 +38,10 @@ Web stack monitoring can be broken down into 2 categories:
 
 ### [0. Sign up for Datadog and install datadog-agent](./0-setup_datadog)
 For this task head to [https://www.datadoghq.com/](https://www.datadoghq.com/) and sign up for a free `Datadog` account. When signing up, you’ll have the option of selecting statistics from your current stack that `Datadog` can monitor for you. Once you have an account set up, follow the instructions given on the website to install the `Datadog` agent. 
-<p>
-<img src="https://holbertonintranet.s3.amazonaws.com/uploads/medias/2019/6/6b0ea6345a6375437845.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUXW7JF5MT%2F20191002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20191002T054057Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=ccce9a754953cc1d48c81a65b76fd167516abb28808e100d06da2148d90e35e8">
+<p align="left">
+	<img src="https://holbertonintranet.s3.amazonaws.com/uploads/medias/2019/6/6b0ea6345a6375437845.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUXW7JF5MT%2F20191002%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20191002T054057Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=ccce9a754953cc1d48c81a65b76fd167516abb28808e100d06da2148d90e35e8">
 </p>
+
 * Sign up for Datadog
 * Install `datadog-agent` on `web-01`
 * Create an `application key`
