@@ -38,10 +38,6 @@ Web stack monitoring can be broken down into 2 categories:
 
 ### [0. Sign up for Datadog and install datadog-agent](./0-setup_datadog)
 For this task head to [https://www.datadoghq.com/](https://www.datadoghq.com/) and sign up for a free `Datadog` account. When signing up, you’ll have the option of selecting statistics from your current stack that `Datadog` can monitor for you. Once you have an account set up, follow the instructions given on the website to install the `Datadog` agent. 
-<p align="left">
-	<img src="https://holbertonintranet.s3.amazonaws.com/uploads/medias/2019/6/6b0ea6345a6375437845.png">
-</p>
-
 * Sign up for Datadog
 * Install `datadog-agent` on `web-01`
 * Create an `application key`
@@ -49,10 +45,6 @@ For this task head to [https://www.datadoghq.com/](https://www.datadoghq.com/) a
 
 ### 1. Monitor some metrics
 Among the litany of data your monitoring service can report to you are system metrics. You can use these metrics to determine statistics such as reads/writes per second, which can help your company determine if/how they should scale. Set up some `monitors` within the `Datadog` dashboard to monitor and alert you of a few. You can read about the various system metrics that you can monitor here: [System Check](https://docs.datadoghq.com/integrations/system/).
-<p align="left">
-   <img src="https://holbertonintranet.s3.amazonaws.com/uploads/medias/2019/6/6a4551974aadc181e97a.png">
-</p>
-
 * Set up a monitor that checks the number of read requests issued to the device per second.
 * Set up a monitor that checks the number of write requests issued to the device per second.
 
