@@ -1,8 +1,9 @@
 # 0x17. Web stack debugging #3
 
 ## Background Context
-
-https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/293/d42WuBh.png
+<p>
+<img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/293/d42WuBh.png">
+</p>
 
 When debugging, sometimes logs are not enough. Either because the software is breaking in a way that was not expected and the error is not being logged, or because logs are not providing enough information. In this case, you will need to go down the stack, the good news is that this is something Holberton students can do :)
 
@@ -15,20 +16,20 @@ The web stack you are debugging today is a Wordpress website running on a LAMP s
 ## Requirements
 * All your files will be interpreted on Ubuntu 14.04 LTS
 * All your files should end with a new line
-* A README.md file at the root of the folder of the project is mandatory
-* Your Puppet manifests must pass puppet-lint without any errors (version >= 1.1.0):
+* Your Puppet manifests must pass `puppet-lint` without any errors (version >= 1.1.0):
 * Your Puppet manifests must run without error
 * Your Puppet manifests first line must be a comment explaining what the Puppet manifest is about
-* Your Puppet manifests files must end with the extension .pp
+* Your Puppet manifests files must end with the extension `.pp`
 * Files will be checked with Puppet v3.4
 
 ### Install `puppet-lint`
 ```
 gem install puppet-lint -v 1.1.0
 ```
+---
 
 ## TASKS
-[0. Strace is your friend](./)
+### [0. Strace is your friend](./)
 [video](https://youtu.be/uHEzt1QuASo)
 
 Using `strace`, find out why Apache is returning a 500 error. Once you find the issue, fix it and then automate it using Puppet (instead of using Bash as you were previously doing).
@@ -71,3 +72,8 @@ root@e514b399d69d:~# curl -s 127.0.0.1:80 | grep Holberton
         <p>Yet another bug by a Holberton student</p>
 root@e514b399d69d:~#
 ```
+
+---
+
+## Author
+* **Nga La** - [sungnga](https://github.com/sungnga)
