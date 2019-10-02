@@ -40,8 +40,8 @@ PROJECT | DESCRIPTION
 ## Environment
 
 * __OS:__ Ubuntu 14.04 LTS
-* __language:__ Python
-* __style:__ PEP8 version 1.7.*
+* __language:__ Bash, Puppet
+* __style:__ Shellcheck (version 0.3.7)
 
 ## Author
 
