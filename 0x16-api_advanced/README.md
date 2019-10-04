@@ -100,7 +100,7 @@ Requirements:
 * If not a valid subreddit, return None.
 * NOTE: Invalid subreddits may return a redirect to search results. Ensure that you are not following redirects.
 Your code will NOT pass if you are using a loop and not recursively calling the function! This /can/ be done with a loop but the point is to use a recursive function. :)
-
+```
 wintermancer@lapbox ~/reddit_api/project $ cat 2-main.py
 #!/usr/bin/python3
 import sys
