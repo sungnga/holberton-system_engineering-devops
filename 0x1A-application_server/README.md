@@ -1,7 +1,7 @@
 # 0x1A. Application server
 
 <p>
-<img src="https://holbertonintranet.s3.amazonaws.com/uploads/medias/2018/9/c7d1ed0a2e10d1b4e9b3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUXW7JF5MT%2F20191010%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20191010T223910Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=1b7b3ef2a6c0355a8f259bc02161b3d8aba6997b198a9277103ec48358d9802c">
+<img src="https://holbertonintranet.s3.amazonaws.com/uploads/medias/2018/9/c7d1ed0a2e10d1b4e9b3.jpg">
 </p>
 
 ## Background Context
